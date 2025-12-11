@@ -6,7 +6,7 @@ After payment, the finance officer validates the transaction and stores it in th
 
 If a customer submits a claim, it is received and reviewed by the claims officer, who approves, rejects, or requests more details. The MIS automatically updates claim status and calculates approved compensation.
 
-The BPMN swimlane diagram visually separates responsibilities across the actors, showing how information flows from one role to another. Decision points highlight payment verification, claim approval, and automated actions.
+The BPMN swimlane diagram visually separates responsibilities Across the actors, showing how information flows from one role to another. Decision points highlight payment verification, claim approval, and automated actions.
 
 This business process significantly improves the organization's efficiency by reducing manual errors, automating repeated tasks, increasing transparency, strengthening data integrity, and enabling analytics such as claims trends, revenue reports, customer segmentation, and policy performance insights.
 
