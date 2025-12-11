@@ -5,3 +5,4 @@ When the customer pays, the finance officer validates the transaction and record
 Customers can submit claims, which the claims officer evaluates and either approves, rejects, or requests additional details. The MIS automatically updates the claim status and calculates approved amounts.
 
 Swimlane diagrams visually separate responsibilities among customers, administrators, finance officers, claims officers, and the automated MIS system. Decision points, such as payment validation and claim approval, are clearly shown. The proposed MIS improves accuracy, speeds up service delivery, and reduces manual errors. It also enables advanced analytics related to customer behavior, claim trends, and revenue monitoring.
+
