@@ -292,3 +292,31 @@ Database Interaction & Transactions(PHASE VI)
 procedure
 first i create This PL/SQL stored procedure is used to insert a new accident report into the accidents table. It also generates a new accident ID automatically using a sequence and returns it to the caller
 
+<img width="1027" height="202" alt="image" src="https://github.com/user-attachments/assets/acbb63a6-fb5c-4f5e-b273-94eae7d4d85b" />
+
+Join: Customers and Policies
+
+<img width="680" height="142" alt="image" src="https://github.com/user-attachments/assets/23f9bbcf-8752-4e56-8165-57c5af8215fc" />
+
+<img width="817" height="200" alt="image" src="https://github.com/user-attachments/assets/bcc4c3e5-3e93-4429-96df-bb9dd51200f2" />
+
+Aggregation: Total Payments per Customer
+
+<img width="656" height="198" alt="image" src="https://github.com/user-attachments/assets/edacdaae-6e44-489c-9db2-9f997af83f8c" />
+<img width="395" height="223" alt="image" src="https://github.com/user-attachments/assets/67a6d2ea-3d1e-4eda-bfe8-fe542dd5e8fb" />
+
+Subquery: Customers with Active Policies
+Find customers who currently have active policies:
+<img width="411" height="223" alt="image" src="https://github.com/user-attachments/assets/ece8701a-f564-4642-96a7-942dc7140915" />
+
+<img width="223" height="161" alt="image" src="https://github.com/user-attachments/assets/4e1eee27-a4c7-4aed-a059-474edd74c2b6" />
+
+Join + Filter: Claims Pending Approval
+List all pending claims with customer and policy details:
+
+<img width="652" height="231" alt="image" src="https://github.com/user-attachments/assets/147a5efe-4a32-4561-9bb8-c43de953bb96" />
+
+<img width="1000" height="106" alt="image" src="https://github.com/user-attachments/assets/3636931a-99ac-47b9-a68b-f58e29374455" />
+
+
+
