@@ -1,31 +1,17 @@
 Example Trigger: Auto Expire Policies
-sql
-CREATE OR REPLACE TRIGGER trg_expire_policy
-BEFORE UPDATE OR INSERT ON customer_policy
-FOR EACH ROW
-BEGIN
-  -- If the end_date is before today, mark status as Expired
-  IF :NEW.end_date < SYSDATE THEN
-    :NEW.status := 'Expired';
-  END IF;
-END;
-/
+
+<img width="498" height="223" alt="image" src="https://github.com/user-attachments/assets/9cbac328-393c-41c8-a1ec-eda627d70a21" />
+
+
 How it works
 •	Fires before any INSERT or UPDATE on CUSTOMER_POLICY.
 •	Checks if the end_date is already past.
 •	If so, it automatically sets the status column to 'Expired'.
 •	This ensures consistency without relying on manual updates.
 Another Practical Trigger: Audit Payments
-sql
-CREATE OR REPLACE TRIGGER trg_audit_payment
-AFTER INSERT ON payment
-FOR EACH ROW
-BEGIN
-  INSERT INTO audit_log (event_ts, user_name, action, details)
-  VALUES (SYSDATE, USER, 'PAYMENT_INSERT',
-          'Payment of ' || :NEW.amount_paid || ' by method ' || :NEW.payment_method);
-END;
-/
+<img width="491" height="202" alt="image" src="https://github.com/user-attachments/assets/edc10161-59dd-4059-a9ec-278f16ff6c71" />
+
+
 How it works
 •	Fires after a new payment is inserted.
 •	Logs the event into an AUDIT_LOG table (you’d need to create it).
