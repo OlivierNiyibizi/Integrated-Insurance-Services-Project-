@@ -270,7 +270,8 @@ Populated the LOCATIONS table with 15 authentic Kigali road segments complete wi
 
 table location
 
-<img width="696" height="510" alt="image" src="https://github.com/user-attachments/assets/53d70ea0-ad40-4b76-883b-baac941e0f21" />
+<img width="567" height="126" alt="image" src="https://github.com/user-attachments/assets/32a9666a-0b91-4cbe-ab12-b78ab16b80ee" />
+
 
 
 Comprehensive Accident Records
@@ -278,7 +279,8 @@ Loaded 10 detailed accident reports demonstrating various severity levels (Minor
 
 table accident
 
-<img width="1186" height="340" alt="image" src="https://github.com/user-attachments/assets/22afbcef-7ac9-42f3-a035-40108acd2ea1" />
+<img width="565" height="150" alt="image" src="https://github.com/user-attachments/assets/a560bfbe-bb8c-4285-8400-78f0c1014258" />
+
 
 
 Role-Based User Management System
