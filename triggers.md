@@ -9,6 +9,7 @@ How it works
 •	If so, it automatically sets the status column to 'Expired'.
 •	This ensures consistency without relying on manual updates.
 Another Practical Trigger: Audit Payments
+
 <img width="491" height="202" alt="image" src="https://github.com/user-attachments/assets/edc10161-59dd-4059-a9ec-278f16ff6c71" />
 
 
@@ -23,4 +24,9 @@ How it works
 <img width="1010" height="173" alt="image" src="https://github.com/user-attachments/assets/7e41186b-671d-40fb-a76f-c379db1e590f" />
 
 
+here is codes to test triggers
+
+UPDATE claim
+SET claim_status = 'Approved'
+WHERE claim_id = 1;
 
