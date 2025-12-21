@@ -13,7 +13,7 @@ The database supports all major insurance activities including:
 - Claims submission, verification, and approval  
 - Business intelligence for KPIs and dashboards  
 
-This system demonstrates strong practical integration between:
+###  This system demonstrates strong practical integration between:
 - **Relational database design**
 - **PL/SQL programming (procedures, triggers, functions, packages)**
 - **MIS workflow automation**
