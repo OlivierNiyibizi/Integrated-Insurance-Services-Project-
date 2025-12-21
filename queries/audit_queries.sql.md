@@ -4,7 +4,7 @@ File: audit_queries.sql
 
 Project Phase
 
-📌 Security, Control & Maintenance 
+ Security, Control & Maintenance 
 
 Description
 
