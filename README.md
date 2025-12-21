@@ -181,11 +181,12 @@ BLACKSPOTS table is maintained automatically by PL/SQL triggers.
 GPS coordinates are stored as unique identifiers for locations.
 
 3.5 EER DIAGRAM
-<img width="770" height="546" alt="image" src="https://github.com/user-attachments/assets/c8628f76-79e8-44a8-93a3-7c097ecab067" />
+
+<img width="1600" height="1600" alt="image" src="https://github.com/user-attachments/assets/8f00a18b-b1dd-4e43-8e44-ec409c5e5700" />
 
 
-The EER Diagram for the Road Accident Reporting & Blackspot Detection System visually confirms the normalized data model (Phase III) required to support the project's automation goals. The model centers on LOCATIONS as the primary entity, which links to three critical tables: ACCIDENTS via a 1 to Many relationship to record transactional data; BLACKSPOTS via a 1 to 1 relationship to hold the single, current risk classification status (High, Medium, Low); and ANALYTICS via a 1 to Many relationship to store pre-aggregated key performance indicators (KPIs) over various time periods. This structure is essential because it allows the PL/SQL Compound Trigger (Phase VII) to check the history of 
-ACCIDENTS
+The EER Diagram for Intergrated_insurance_services_db visually confirms the normalized data model (Phase III) required to support the project's automation goals. The model centers on LOCATIONS as the primary entity, which links to three critical tables: ACCIDENTS via a 1 to Many relationship to record transactional data; BLACKSPOTS via a 1 to 1 relationship to hold the single, current risk classification status (High, Medium, Low); and ANALYTICS via a 1 to Many relationship to store pre-aggregated key performance indicators (KPIs) over various time periods. This structure is essential because it allows the PL/SQL Compound Trigger (Phase VII) to check the history of 
+customer services
  for a specific 
 Location ID
  and quickly update the 
