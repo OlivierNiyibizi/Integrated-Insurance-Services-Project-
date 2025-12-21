@@ -253,7 +253,8 @@ TABLE IMPLEMENTATION & DATA INSERTION (phase V)
 Database Schema Creation & Data Population
 Successfully executed all CREATE TABLE statements with proper constraints, primary keys, foreign keys, and business rules. The foundation of our Road Accident Reporting System is now structurally complete and ready for data management operations. table creation
 
-<img width="1338" height="381" alt="image" src="https://github.com/user-attachments/assets/5df463d0-9db3-43b3-a198-d30c98c7fc1e" />
+<img width="374" height="385" alt="image" src="https://github.com/user-attachments/assets/7f84ff7d-9ce2-4fb8-b6a9-9cd385cdc7a7" />
+
 
 
 Automated Primary Key Sequences
